@@ -3233,8 +3233,8 @@
 /* Supabase account layer. Set the project URL + anon/publishable key below after following SETUP.md. */
 (function(){
  'use strict';
- var SUPABASE_URL='YOUR_SUPABASE_PROJECT_URL';
- var SUPABASE_ANON_KEY='YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY';
+ var SUPABASE_URL='https://ygrpyijritjnfxpsoewg.supabase.co';
+ var SUPABASE_ANON_KEY='sb_publishable_fMBrIn1beb--LJHjuR5grA_sF1t07l3';
  var ready=!!(window.supabase&&SUPABASE_URL.indexOf('YOUR_')!==0&&SUPABASE_ANON_KEY.indexOf('YOUR_')!==0);
  var client=ready?window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY):null;
  var shade=document.getElementById('ll-auth-shade'),launcher=document.getElementById('ll-account-launcher'),label=document.getElementById('ll-account-label'),msg=document.getElementById('ll-auth-message');
